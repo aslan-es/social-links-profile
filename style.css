@@ -105,6 +105,11 @@ body {
   color: var(--bg-card);
 }
 
+.btn:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+
 @media screen and (min-width: 600px) {
   .card {
     padding: 2.5rem;
